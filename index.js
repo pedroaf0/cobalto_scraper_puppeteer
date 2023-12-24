@@ -151,7 +151,7 @@ require('dotenv').config();
           };
 
           // Envia a disciplina para o PHP
-          axios.post('http://localhost/API/cobalto/disciplinas/criar.php', data, config)
+          axios.post('http://localhost/API/disciplinas/criar.php', data, config)
             .then((response) => {
               console.log(response.data);
             })
@@ -209,7 +209,7 @@ require('dotenv').config();
           };
 
           // Envia o aluno para o PHP
-          axios.post('http://localhost/API/cobalto/alunos/criar.php', data, config)
+          axios.post('http://localhost/API/alunos/criar.php', data, config)
             .then((response) => {
               console.log(response.data);
             })
@@ -246,7 +246,7 @@ require('dotenv').config();
           };
 
           // Envia a matricula para o PHP
-          axios.post('http://localhost/API/cobalto/alunos/matricular.php', data, config)
+          axios.post('http://localhost/API/alunos/matricular.php', data, config)
             .then((response) => {
               console.log(response.data);
             })
